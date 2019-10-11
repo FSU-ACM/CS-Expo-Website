@@ -1,0 +1,2803 @@
+<!DOCTYPE HTML>
+
+<head>
+
+<meta charset="utf-8">
+
+<title>FSU Computer Science - CS Expo 2017</title>
+
+<meta name="description" content="FSU's Annual CS Expo is on November 16 and is the premier annual event for students, alumni and faculty of the Computer Science department at the Florida State University.">
+
+<meta name="keywords" content="fsu, florida state, computer science, expo, seminoles, noles, compsci, cs, www.cs.fsu.edu">
+
+<meta name="author" content="FSU Computer Science Department">
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+<link rel="shortcut icon" href="images/favicon.ico">
+
+<link href='http://fonts.googleapis.com/css?family=Oxygen:300,400,700' rel='stylesheet' type='text/css'>
+
+<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+
+<link rel="stylesheet" href="css/base.css">
+
+<link rel="stylesheet" href="css/skeleton.css">
+
+<link rel="stylesheet" href="css/style.css">
+
+<link rel="stylesheet" href="css/media.css">
+
+<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
+<script>
+      function initialize() {
+		var myLatLng = {lat: 30.44075377, lng: -84.29842025};
+
+        var mapCanvas = document.getElementById('map');
+        var mapOptions = {
+          center: new google.maps.LatLng(30.44075377, -84.29842025),
+          zoom: 18,
+          mapTypeId: google.maps.MapTypeId.ROADMAP
+        }
+	
+
+        var map = new google.maps.Map(mapCanvas, mapOptions)
+			var marker = new google.maps.Marker({
+    position: myLatLng,
+    map: map,
+    title: 'Center for Global Engagement'
+  });
+      }
+	  
+      google.maps.event.addDomListener(window, 'load', initialize);
+    </script>
+
+
+<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+
+<!-- <script type="text/javascript" src="http://codeorigin.jquery.com/ui/1.9.2/jquery-ui.min.js"></script> -->
+
+<script type="text/javascript" src="js/zebra_accordion.js"></script>
+
+<script type="text/javascript" src="js/jquery.flexisel.js"></script> 
+
+<script type="text/javascript" src="js/jquery.quovolver.js"></script>
+
+<script type="text/javascript" src="js/jquery.popupoverlay.js"></script>
+
+<!-- <script src="//cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"></script> -->
+
+<script type="text/javascript" src="js/scripts.js"></script>
+
+<!--[if lt IE 9]>
+
+	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+
+<![endif]-->
+
+</head>
+
+
+
+<body>    
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<!-- START OF DIV -->  
+
+<div class="page" >
+
+	<!-- <div class="container-border"> disable this to make 100% layout page--> 
+
+    	
+
+        <!-- NAVIGATION -->
+
+        <nav>
+
+            <div class="container">
+
+                <div class="sixteen columns">
+
+                    <!-- NAVIGATION - Sign up -->	
+
+                    <!-- <div class="signup"><a class="button-signup my_modal_open">Sponsors</a></div> -->
+
+                    <!-- NAVIGATION - list -->	
+
+                    <ul id="onepagenav">
+
+                        <li><a href="#homepage">Back to Top</a></li>
+
+                        <li><a href="#about">About</a></li>
+
+                        <li><a href="#speaker">Speakers</a></li>
+
+                        <li><a href="#schedule">Schedules</a></li>
+
+                        <li><a href="#venue">Venue</a></li>
+
+                        <li><a href="#faq">FAQ</a></li>
+
+                        <li><a id="contact_link" href="#contact">Contact</a></li>
+
+                    </ul>   
+
+                    <!-- NAVIGATION - list -->	
+
+                </div>
+
+            </div>
+
+		</nav>
+
+        <!-- NAVIGATION -->
+
+        
+
+        <!-- MODULE : HOMEPAGE -->
+
+		<section id="homepage">
+
+        	<div class="pattern-overlay"></div>
+
+			<div class="container">
+
+				<div class="sixteen columns">
+
+                    <!-- HOMEPAGE - bigtext -->
+
+                    <div class="home-bigtext">
+
+                        <h1 class="white">FSU CS Expo 2017</h1>
+
+                        <!-- <p class="white">Save the Date! November 12th, 2015</p> -->
+
+                        <p class="white">November 16th, 2017</p>
+
+                    </div>
+
+                    <!-- HOMEPAGE - bigtext -->
+
+                    <!-- HOMEPAGE - widget -->
+
+                    <div id="homepage-widget" style="display:none;">
+
+                        <div id="event-widget">
+
+                            <div id="countdown">
+
+                                <div id="countdown_dashboard">
+
+                                    <!-- <div class="dash days_dash">
+
+                                        <span class="dash-title">days</span>
+
+                                        <div class="digit digit-daymargin">0</div>
+
+                                        <div class="digit">0</div>
+
+                                        <div class="digit">0</div>
+
+                                    </div>
+
+                        
+
+                                    <div class="dash hours_dash">
+
+                                        <span class="dash-title">hours</span>
+
+                                        <div class="digit digit-margin">0</div>
+
+                                        <div class="digit">0</div>
+
+                                    </div>
+
+                        
+
+                                    <div class="dash minutes_dash">
+
+                                        <span class="dash-title">minutes</span>
+
+                                        <div class="digit digit-margin">0</div>
+
+                                        <div class="digit">0</div>
+
+                                    </div> -->
+
+                                    <!-- today's text -->
+
+                                    <!-- <h1 style="padding: 18px;">It's today!</h1> -->
+
+                                </div>
+
+                            </div> 
+
+                        </div>
+
+                    </div>
+
+                    <!-- HOMEPAGE - widget -->
+
+                    <!-- HOMEPAGE - share -->
+
+                    <div class="shareon-container">
+
+                        <div class="shareon-text">share on</div>
+						<div class="fb-share-button" data-href="http://ww2.cs.fsu.edu/~jayarama/expo/" data-layout="box_count"></div>
+
+			<!--<a href="https://www.facebook.com/sharer/sharer.php?p[url]=http://ww2.cs.fsu.edu/~jayarama/expo&amp;p[title]=FSU%20CS%20EXPO%2C%202015+&amp;p[summary]=Florida%20State%27s%20Computer%20Science%20Department%20hosts%20the%202015%20%23FSUCSExpo%20on%20November%2012th.%20For%20more%20info%3A%20www.cs.fsu.edu%2Fexpo" target="_blank" class="facebook-share">facebook</a>
+
+                       <!-- <a href="http://www.facebook.com/sharer/sharer.php?s=100&amp;p[url]=http://ww2.cs.fsu.edu/~jayarama/expo&amp;p[images][0]=http://logicum.co/wp-content/kliximagedimsum/sharetweetbuttons.dimsum.291x173.jpg&amp;p[title]=FSU%20CS%20EXPO%2C%202014+&amp;p[summary]=Florida%20State%27s%20Computer%20Science%20Department%20hosts%20the%202014%20%23FSUCSExpo%20on%20November%206th.%20For%20more%20info%3A%20www.cs.fsu.edu%2Fexpo" target="_blank" class="facebook-share">facebook</a> -->
+
+                        <a href="https://twitter.com/intent/tweet?text=%40floridastate%27s%20Computer%20Science%20Department%20hosts%20the%202015%20%23FSUCSExpo%20on%20November%2012th.%20For%20more%20info%3A%20www.cs.fsu.edu%2Fexpo" target="_blank" class="twitter-share">twitter</a>
+
+                    </div>
+
+                    <!-- HOMEPAGE - share -->
+
+				</div>
+
+			</div>
+
+		</section>
+
+		<!-- MODULE : HOMEPAGE -->
+
+        
+
+        <!-- MODULE : TOP SPONSOR -->
+
+        <div class="topsponsor-section">
+
+        	<div class="container">
+
+                <div class="sixteen columns topsponsor-single-withtext" style="text-align:center;">
+
+                    <p style="line-height:0!important;margin-bottom:0!important;">organized by</p>
+
+                    <img src="images/FSUcompsci-banner.png" alt="logo"/>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- MODULE : TOP SPONSOR -->
+
+        
+
+        <div class="colorline"></div>
+
+        
+
+        <!-- MODULE : TICKETING -->
+
+        <div id="ticketsection">
+
+            <div class="container">
+
+                <div class="sixteen columns" style="margin-bottom: 20px; text-align: center;">
+
+                    <h3>We are still accepting event co-sponsors.</h3>
+
+                    <br>
+
+                    <a id="reveal_pkgs" class="button my_modal_open" style="margin:0 auto; max-width: 170px;">See Sponsorship Packages</a>
+
+                </div>
+
+            </div>
+
+            <div class="container" id="pkgs" style="display: none;">
+
+                <div class="one-third column ticketing">
+
+                    <div class="inside">
+
+                        <h4>Standard Sponsorship</h4>
+
+                        <h5>$500 Donation</h5>
+
+                        <!-- <p>Please contact us for more information about the Standard Sponsorship package.</p> -->
+
+                        <a href="#contact" class="button-ticketing">More Info</a>
+
+                    </div>
+
+                </div>
+
+                <div class="one-third column ticketing">
+
+                    <div class="inside">
+
+                        <h4>Garnet Sponsorship</h4>
+
+                        <h5>$1000 Donation</h5>
+
+                        <!-- <p>Please contact us for more information about the Garnet Sponsorship package.</p> -->
+
+                        <a href="#contact" class="button-ticketing">More Info</a>
+
+                    </div>
+
+                </div>
+
+                <div class="one-third column ticketing">
+
+                    <div class="inside">
+
+                        <h4>Gold Sponsorship</h4>
+
+                        <h5>$1500 Donation</h5>
+
+                        <!-- <p>Please contact us for more information about the Gold Sponsorship package.</p> -->
+
+                        <a href="#contact" class="button-ticketing">More Info</a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- MODULE : TICKETING -->
+
+        
+
+        <!-- MODULE : TICKETBOX -->
+
+		<section id="ticketbox" class="section-container">
+
+				<div class="container">
+
+      			<div class="sixteen columns heading-text-nodesc">
+
+                    <div class="separator separator-title">
+
+                        <h2 class="separator-mainheader color">Event Features</h2>
+
+                    </div>
+
+                </div>
+
+                
+
+                <div class="one-third column ticketbox-list">
+
+        			<h6>Industry Speakers</h6>
+
+              		<p>share their experiences and insight.</p>
+
+                </div>
+
+                
+
+                <div class="one-third column ticketbox-list">
+
+        			<h6>Research Presentations</h6>
+
+              		<p>by students and alumni.</p>
+
+                </div>
+
+                
+
+                <div class="one-third column ticketbox-list">
+
+        			<h6>Poster Contest</h6>
+
+              		<p>Prizes awarded to the winner.</p>
+
+                </div>
+
+                
+
+                <div class="one-third column ticketbox-list">
+
+        			<h6>Grad-Made-Good</h6>
+
+              		<p>Talks given by successful alumni.</p>
+
+                </div>
+
+                
+
+                <div class="one-third column ticketbox-list">
+
+        			<h6>Social Gathering</h6>
+
+              		<p>of like-minded professionals.</p>
+
+                </div>
+
+                
+
+                <div class="one-third column ticketbox-list">
+
+        			<h6>Awards Ceremony</h6>
+
+              		<p>Celebrate faculty and students.</p>
+
+                </div>
+
+
+
+                <div class="one-third column ticketbox-list">
+
+                    <h6>Software Demo Contest</h6>
+
+                    <p>Prizes awarded to the winner.</p>
+
+                </div>
+
+
+
+                <div class="one-third column ticketbox-list">
+
+                    <h6>Raffles and Door Prizes</h6>
+
+                    <p>Answer trivia in between talks to win.</p>
+
+                </div>
+
+
+
+                <div class="one-third column ticketbox-list">
+
+                    <h6><!--ACM Social--></h6>
+
+                    <p><!--Students discuss ideas and projects.--></p>
+
+                </div>
+
+                
+
+			</div>
+
+		</section>
+
+		<!-- MODULE : TICKETBOX -->
+
+        <div class="colorline"></div>
+
+    	<!-- MODULE : ABOUT -->
+
+		<section id="about" class="section-container">
+
+        	<div class="header-image-parallax">
+
+            	<div class="bg-parallax-1"></div>
+
+             	<div class="pattern-overlay"></div>
+
+            </div>
+
+				<div class="container">
+
+      			<div class="sixteen columns heading-text">
+
+            		<div class="separator separator-title">
+
+                    	<h2 class="separator-mainheader color">About the CS Expo</h2>
+
+                		<span class="separator-subheader">who we are and why we do this</span>
+
+                	</div>
+
+            	</div>
+
+            
+
+                <!-- ABOUT - background -->
+
+                <div class="sixteen columns">
+
+                    <h5>The Expo Mission</h5>
+
+                    <p>The CS Expo is the premier annual event for students, alumni and faculty of the Computer Science department at the Florida State University to showcase science, technology, and cutting-edge projects, and to exchange opportunities and experiences. This one-day event sets up an open forum that features technical talks, research presentations, demos and posters by computer science students, a "Grad-Made-Good" talk by this year's keynote speaker Dr. Prasad Kulkarni from University of Kansas, and an invited talk from the David Lawson of NewSci. Alumni and friends of the Computer Science department participate in the event to share post-graduate experiences and opportunities for our students.</p>
+
+                </div>
+
+                <!-- <hr class="dividerline"/>
+
+                
+
+                <!-- ABOUT - topic -->
+
+                <span style="display:none;">
+
+                <div class="sixteen columns">
+
+                <h5>Learning topics</h5>
+
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore</p>
+
+                </div>
+
+                
+
+                <div class="eight columns topic-container">
+
+                    <div class="topic-icon">
+
+                        <!-- <img src="demo/03_icon1.png" alt="topic"/>
+
+                    </div>
+
+                    <span class="topic-title">Organizing your folder</span>
+
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore</p>
+
+                </div>
+
+                
+
+                <div class="eight columns topic-container">
+
+                    <div class="topic-icon">
+
+                        <!-- <img src="demo/03_icon2.png" alt="topic"/> -->
+
+                    </div>
+
+                    <span class="topic-title">Create to do task</span>
+
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore</p>
+
+                </div>
+
+                
+
+                <div class="eight columns topic-container">
+
+                    <div class="topic-icon">
+
+                        <!-- <img src="demo/03_icon3.png" alt="topic"/> -->
+
+                    </div>
+
+                    <span class="topic-title">Search &amp; explore</span>
+
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore</p>
+
+                </div>
+
+                
+
+                <div class="eight columns topic-container">
+
+                    <div class="topic-icon">
+
+                        <!-- <img src="demo/03_icon4.png" alt="topic"/> -->
+
+                    </div>
+
+                    <span class="topic-title">Go take photo</span>
+
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore</p>
+
+                </div>
+
+                
+
+                <div class="eight columns topic-container">
+
+                    <div class="topic-icon">
+
+                        <!-- <img src="demo/03_icon5.png" alt="topic"/> -->
+
+                    </div>
+
+                    <span class="topic-title">Go professional</span>
+
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore</p>
+
+                </div>
+
+                
+
+                <div class="eight columns topic-container">
+
+                    <div class="topic-icon">
+
+                        <!-- <img src="demo/03_icon6.png" alt="topic"/> -->
+
+                    </div>
+
+                    <span class="topic-title">Write a note</span>
+
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore</p>
+
+                </div>
+
+                </span>
+
+
+
+                <!-- <hr class="dividerline"/> --> 
+
+                
+
+                <!-- ABOUT - video -->
+
+                <!-- <div class="eight columns">
+
+                    <h5>Check out our Promotional Video</h5>
+
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim.</p>
+
+                    <ul class="list-square">
+
+                        <li>Nullam vitae sollicitudin eros. Cras varius vehicula velit, ac congue quam dictum sed.</li>
+
+                        <li>Morbi commodo interdum enim, nec mollis arcu scelerisque a. Suspendisse arcu augue.</li>
+
+                        <li>Phasellus ut vulputate erat. Morbi interdum enim. </li>
+
+                        <li>Morbi commodo interdum enim, nec mollis arcu scelerisque a. Suspendisse arcu augue.</li>
+
+                    </ul>
+
+                </div>
+
+                <div class="about-video eight columns">
+
+                    <iframe src="http://player.vimeo.com/video/40000696?color=ffffff" class="video-embed"></iframe> 
+
+                </div> -->
+
+                
+
+                <!-- <hr class="dividerline"/>
+
+                
+
+                <div class="sixteen columns ">
+
+                <h5>Learning topics</h5>
+
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore</p>
+
+                </div>
+
+                
+
+                <div class="four columns topic-container">
+
+                	<img src="" alt="topic" class="left" style="margin-right:10px; "/><p>Nullam vitae sollicitudin eros. Cras varius vehicula velit, ac congue quam dictum sed.
+
+                	Morbi commodo interdum enim, nec mollis arcu scelerisque a. Suspendisse arcu augue.</p>
+
+                </div>
+
+                
+
+                <div class="four columns topic-container">
+
+                	<img src="" alt="topic" class="left" style="margin-right:10px;"/><p>Nullam vitae sollicitudin eros. Cras varius vehicula velit, ac congue quam dictum sed.
+
+                	Morbi commodo interdum enim, nec mollis arcu scelerisque a. Suspendisse arcu augue.</p>
+
+                </div>
+
+                
+
+                <div class="four columns topic-container">
+
+                	<img src="" alt="topic" class="left" style="margin-right:10px;"/><p>Nullam vitae sollicitudin eros. Cras varius vehicula velit, ac congue quam dictum sed.
+
+                	Morbi commodo interdum enim, nec mollis arcu scelerisque a. Suspendisse arcu augue.</p>
+
+                </div>
+
+                
+
+                <div class="four columns topic-container">
+
+                	<img src="" alt="topic" class="left" style="margin-right:10px;"/><p>Nullam vitae sollicitudin eros. Cras varius vehicula velit, ac congue quam dictum sed.
+
+                	Morbi commodo interdum enim, nec mollis arcu scelerisque a. Suspendisse arcu augue.</p>
+
+                </div> -->
+
+                
+
+			</div>
+
+		</section>
+
+		<!-- MODULE : ABOUT --> 
+
+		
+
+        <!-- MODULE : QUOTE -->
+
+    	<div id="quotesection">
+
+			<div class="container">
+
+        		<div class="sixteen columns quote">
+
+                    <blockquote>
+
+                        <h5>The computer was born to solve problems that did not exist before.</h5>
+
+                        <p>&ndash; Bill Gates</p>
+
+                    </blockquote>
+
+                    
+
+                    <blockquote>
+
+                        <h5>We can only see a short distance ahead, but we can see plenty there that needs to be done.</h5>
+
+                        <p>&ndash; Alan Turing</p>
+
+                    </blockquote>
+
+                    
+
+                    <blockquote>
+
+                        <h5>The question of whether computers can think is like the 
+
+                    question of whether submarines can swim.</h5>
+
+                        <p>&ndash; Edsger Dijkstra</p>
+
+                    </blockquote>
+
+                    
+
+                    <blockquote>
+
+                        <h5>An algorithm must be seen to be believed.</h5>
+
+                        <p>&ndash; Donald Knuth</p>
+
+                    </blockquote>
+
+
+
+                    <blockquote>
+
+                        <h5>A language that doesn't have everything is actually easier to program in than some that do.</h5>
+
+                        <p>&ndash; Dennis Ritchie</p>
+
+                    </blockquote>
+
+
+
+                    <blockquote>
+
+                        <h5>One accurate measurement is worth a thousand expert opinions.</h5>
+
+                        <p>&ndash; Grace Hopper</p>
+
+                    </blockquote>
+
+				</div>
+
+ 			</div>
+
+		</div>
+
+    	<!-- MODULE : QUOTE -->
+
+        
+
+        <!-- MODULE : SPEAKER -->
+
+    	<div class="colorline"></div>
+
+        <section id="speaker" class="section-container">
+
+        	<div class="header-image-parallax">
+
+            	<div class="bg-parallax-2"></div>
+
+             	<div class="pattern-overlay"></div>
+
+            </div>
+
+        	<div class="container">
+
+            	<div class="sixteen columns heading-text">
+
+                 	<div class="separator separator-title">
+
+                        <h2 class="separator-mainheader color">Speakers</h2>
+
+                        <span class="separator-subheader">Will share their experiences</span>
+
+            		</div>
+
+        		</div>
+
+               
+
+                <!-- SPEAKER - speaker profile -->
+
+                <div class="one-third column speaker-profile">
+
+                    <div class="speaker-thumb"><img src="images/Mike Marotte.png" alt="speaker"/></div> 
+
+                    <div class="speaker-description">
+
+                        <h5>Mike Marotte</h5>
+
+                        <p class="job-position">Senior Principal Engineer at Dell EMC</p> 
+
+                        <p>Michael Marrotte is a Senior Principal Engineer at Dell EMC where he primarily works on cloud storage.  He has been working in the information technology industry for over 20 years.  Michael has undergraduate degrees in mathematics, computer science and physics and holds a master’s in computer science from Florida State University.  Michael has received four Dell EMC excellence awards in the past three years for innovation and leadership and his team won the Dell EMC president’s award in 2013.  Michael lives in Windermere, Florida with his wife Suzanne and three children Dylan, Valerie and Juliette.</p>
+
+                    </div>
+
+                </div>
+
+                <!-- SPEAKER - speaker profile -->
+
+                    
+
+                <!-- SPEAKER - speaker profile -->
+
+                <div class="one-third column speaker-profile">
+
+                    <div class="speaker-thumb"><img src="images/Frank Valcarcel - Cuttlesoft.jpg" alt="speaker"/></div> 
+
+                    <div class="speaker-description">
+
+                        <h5>Frank Valcarcel</h5>
+
+                        <p class="job-position">Co-Founder and Director of Operations at Cuttlesoft</p> 
+
+                        <p>Frank Valcarcel is a born entrepreneur with over a decade of IT experience. Frank has lead Cuttlesoft to two states and 10x growth in just 3 years. As a Fullstack developer and systems expert, he still finds the command line second to none. His motto; “Iterate towards perfection”, has become Cuttlesoft's mission statement, and an affirmation for where the company is heading.</p>
+
+                    </div>
+
+                </div>
+
+                <!-- SPEAKER - speaker profile -->
+
+              <div class="one-third column speaker-profile">
+
+                    <div class="speaker-thumb"><img src="images/Edward Skrod.jpg" alt="speaker"/></div> 
+
+                    <div class="speaker-description">
+
+                        <h5>Edward Skrod</h5>
+
+                        <p class="job-position">Software Engineer in Microsoft's Visual Studio team</p> 
+
+                        <p>Edward Skrod currently works on Visual Studio’s Universal Windows Platform team and shares responsibility for the deployment and packaging pipeline. He also owns an application that spins up virtual machines for automatic testing of various Visual Studio installation scenarios. He describes himself as a, "passionate and customer-focused software engineer who is enthusiastic about creating amazing products that make a difference in our world."</p>
+
+                    </div>
+
+                </div>   
+				
+				<div class="one-third column speaker-profile">
+
+                    <div class="speaker-thumb"><img src="images/McDonald.jpg" alt="speaker"/></div> 
+
+                    <div class="speaker-description">
+
+                        <h5>Jason McDonald</h5>
+
+                        <p class="job-position">Software Engineering Manager for Electronic Systems, Harris</p> 
+
+                        <p>Jason McDonald is a member of the Engineering leadership team as a Software Engineering Manager for Electronic Systems (ES) leading a Brevard County based Software Engineering department, overseeing robotics and avionics. Jason is also the Software Engineering Discipline Team Lead for Electronic Systems.  Previously, he worked for General Electric Energy and Northrop Grumman in a Software Engineering capacity.  During his time at Northrop Grumman Advanced System's team, Jason's focus was building software to interpret/exploit large volumes of data.  At General Electric, Jason was the lead architect for software to predict power usages at the house level.  He is a Scrum Master, Green Belt, and holds one patent (two pending). Jason earned his B.S. and M.S. degrees in Computer Science from the Florida State University.</p>
+
+                    </div>
+
+                </div> 
+				
+				
+				
+				<div class="one-third column speaker-profile">
+
+                    <div class="speaker-thumb"><img src="images/Miniclier.jpg" alt="speaker"/></div> 
+
+                    <div class="speaker-description">
+
+                        <h5>Sean Miniclier</h5>
+
+                        <p class="job-position">Software Engineering Manager for Electronic Systems, Harris</p> 
+
+                        <p>Sean Miniclier is a Software Engineering Manager for Electronic Systems (ES). He manages one of the largest software departments in Harris Corporation, overseeing air traffic management, weather, and voice systems. He has over sixteen years of cumulative experience in the software engineering field. He brought many of the collaborative concepts and lessons learned from previous programs to his business area. Sean holds multiple technical certifications, including Certified Scrum Master, and one patent for a “System and Method for Processing Map Images.” Sean was a speaker at last year’s Computer Science Expo, and gave a talk on the transition from coursework to career, and the importance of remaining agile. Sean received his Bachelor of Science in Computer Science from Florida State University.</p>
+
+                    </div>
+
+                </div>
+				
+				<div class="one-third column speaker-profile">
+
+                    <div class="speaker-thumb"><img src="images/Eick.jpg" alt="speaker"/></div>
+
+                    <div class="speaker-description">
+
+                        <h5>Jason Eick</h5>
+
+                        <p class="job-position">Senior Manager, Software/Electronics R&D, Danfoss Turbocor</p> 
+
+                        <p>Jason Eick is the Seinor Manager for Software Engineering and R&D at Danfoss Turbocor. He creates, develops, implements and maintains an energetic, creative and highly talented team which architects, designs, implements and validates embedded control, variable frequency drive and interface hardware/software solutions utilized in controlling and maintaining highly specialized compressor systems. Before moving to management at Danfoss, Jason was a Software Engineer for Operations, as well as Product Development. Jason received his Bachelor of Science in Computer Science from Florida State University.</p>
+
+                    </div>
+
+                </div>
+
+  			</div>
+			
+		
+			<div class="container">
+				<div class="sixteen columns">
+			<p class="terms">Jason McDonald and Sean Miniclier will give a talk on DevOps, a leading-edge software engineering practice that aims to harmonize development and operations, thereby making the modern software factory more reactive and efficient.</p>
+				</div>
+			</div>
+				
+
+		</section>
+		
+		<div class="colorline"></div>
+
+        <section id="speaker" class="section-container">
+
+        	<div class="header-image-parallax">
+
+            	<div class="bg-parallax-2"></div>
+
+             	<div class="pattern-overlay"></div>
+
+            </div>
+
+        	<div class="container">
+
+            	<div class="sixteen columns heading-text">
+
+                 	<div class="separator separator-title">
+
+                        <h2 class="separator-mainheader color">Student Talks</h2>
+
+                        <span class="separator-subheader">Curent Research at FSU Computer Science Department</span>
+
+            		</div>
+
+        		</div>
+
+               
+
+                <!-- SPEAKER - speaker profile -->
+
+                
+                <div class="one-third column speaker-profile">
+
+                    <div class="speaker-thumb">
+						<img src="images/Sohelia.jpg" alt="speaker"/>-->
+					</div> 
+
+                    <div class="speaker-description">
+
+                        <h5>Soheila Abrishami</h5>
+
+                        <p class="job-position">PhD Student</p> 
+
+                        <p>Soheila Abrishami is a PhD candidate in Computer Science at FSU. Her research interests are in machine learning, data mining, and data science. She works under the supervision of Dr. Piyush Kumar. Her current project focuses on foot traffic forecasting which is a particular application of time-series forecasting and time-series analysis.<br>Soheila will present her research, titled "Smart Stores:  A scalable foot traffic collection and prediction system".</p>
+
+                    </div>
+
+                </div>
+
+                <!-- SPEAKER - speaker profile -->
+
+
+
+                <!-- SPEAKER - speaker profile -->
+
+               <div class="one-third column speaker-profile">
+
+                    <div class="speaker-thumb">
+						<img src="images/Rahman.jpg" alt="speaker"/>-->
+				   </div> 
+
+                    <div class="speaker-description">
+
+                        <h5>Shafayat Rahman</h5>
+
+                        <p class="job-position">PhD Student</p> 
+
+                        <p>Shafayat Rahman is a PhD student in the department of Computer Science at FSU. He works with Dr. Xin Yuan at FSU CS EXPLORER (EXtreme-scale comPuting, modeLing, netwORking & systEms Research) lab, which focuses on the design and performance of efficient communication infrastructure for extreme-scale distributed computing systems. His research activity mainly revolves around the analysis, design, simulation, performance modeling and evaluation of topologies and routing schemes used in large-scale systems. <br>In the Expo, Shafayat will present on one of his recent research projects, titled "Load-Balanced Slim Fly Networks". Slim Fly is a recently-proposed topology for future generation supercomputers. This project investigates the performance of non-minimal and adaptive routing techniques on Slim Fly, and introduces new approaches to make them more robust and load-balanced.</p>
+
+                    </div>
+
+                </div>
+
+                <!-- SPEAKER - speaker profile -->
+
+<!--
+			  <div class="one-third column speaker-profile">
+
+                    <div class="speaker-thumb"><img src="images/yue.jpg" alt="speaker"/></div> 
+
+                    <div class="speaker-description">
+
+                        <h5> Yue Chen</h5>
+
+                        <p class="job-position">Harvesting Developer Credentials in Android Apps</p> 
+
+                        <p>Developers often integrate third-party services into their apps. To access a service, an app must authenticate itself to the service with a credential. However, credentials in apps are often not properly or adequately protected, and might be easily extracted by attackers. A leaked credential could pose serious privacy and security threats to both the app developer and app users. CredMiner can programmatically identify and recover (obfuscated) developer credentials unsafely embedded in Android apps. Specifically, it leverages data flow analysis to identify the raw form of the embedded credential, and selectively executes the part of the program that builds the credential to recover it.</p>
+
+                    </div>
+
+                </div>
+-->
+				</div>
+				
+				<div class="container">
+
+            	<div class="sixteen columns heading-text">
+
+<!--                 	<div class="separator separator-title">-->
+
+                       <!-- <h2 class="separator-mainheader color">Student Talks</h2>
+
+                        <span class="separator-subheader">Curent Research at FSU Computer Science Department</span>-->
+
+<!--            		</div>-->
+
+        		</div>
+
+				
+
+                <!-- SPEAKER - speaker profile -->
+
+              <!--  <div class="one-third column speaker-profile" style="display:none;">
+
+                    <!-- <div class="speaker-thumb"><img src="" alt="speaker"/></div>  -->
+
+                 <!--   <div class="speaker-description">
+
+                        <h5></h5>
+
+                        <p class="job-position"></p> 
+
+                        <p></p>
+
+                    </div>
+
+                </div>
+
+                <!-- SPEAKER - speaker profile -->
+
+                
+
+                <!--
+
+                <div class="sixteen columns">
+
+                    <h5>Also Featuring</h5>
+
+                    <p>Graduate Reseacrh Presentations.</p>
+
+					<ol>
+
+					<li> Caitlin Carnahan: Non-Conventional Search and Identification.</li>
+
+					<li> Aneesh Sharma: Motion Planning Algorithm for Mobile Robots. </li>
+
+					<li></li>
+
+					</ol><p></p>
+
+                </div>
+
+                
+
+                <ul class="grid cs-style-3">
+
+                
+
+                    <!-- SPEAKER - speaker profile -->
+
+                  <!--  <li class="four columns speaker-profile ">
+
+                        <div class="boxgrid captionfull">
+
+                            <img src="images/caitlin.jpg" alt="speaker" />
+
+                            <div class="cover boxcaption">
+
+                                <h5 class="white">Caitlin Carnahan</h5>
+
+                                <span></span>
+
+                            </div>
+
+                        </div>
+
+                    </li>
+
+                    <!-- SPEAKER - speaker profile -->
+
+                    
+
+                    <!-- SPEAKER - speaker profile -->
+
+                   <!-- <li class="four columns speaker-profile ">
+
+                        <div class="boxgrid captionfull">
+
+                            <img src="images/Aneesh.png" alt="speaker" />
+
+                            <div class="cover boxcaption">
+
+                                <h5 class="white">Aneesh Sharma</h5>
+
+                                <span></span>
+
+                            </div>
+
+                        </div>
+
+                    </li>
+
+                    <!-- SPEAKER - speaker profile -->
+
+                    
+
+                   </ul>
+
+                
+
+  			</div>
+
+		</section>
+
+    	<!-- MODULE : SPEAKER -->
+
+        
+
+        <!-- MODULE : TICKETING -->
+
+        <!-- <div id="statisticsection">
+
+            <div class="container">
+
+                <div class="one-third column statistic">
+
+                	<div class="statistic-icon"><img src="images/statistic-icons/people.png" alt="statistic"/></div>
+
+                    <div class="statistic-desc">
+
+                    <h3>134,980</h3>
+
+                    <p>Total contestants</p>
+
+                    </div>
+
+                </div>
+
+                <div class="one-third column statistic">
+
+                	<div class="statistic-icon"><img src="images/statistic-icons/time.png" alt="statistic"/></div>
+
+                    <div class="statistic-desc">
+
+                    <h3>1,980</h3>
+
+                    <p>Hours that we spend</p>
+
+                    </div>
+
+                </div>
+
+                <div class="one-third column statistic">
+
+                	<div class="statistic-icon"><img src="images/statistic-icons/globe.png" alt="statistic"/></div>
+
+                    <div class="statistic-desc">
+
+                    <h3>112</h3>
+
+                    <p>Countries participated</p>
+
+                    </div>
+
+                </div>
+
+                
+
+            </div>
+
+        </div> -->
+
+        <!-- MODULE : TICKETING -->
+
+
+
+        <!-- MODULE : SMALL SECTION - TEXT WITH BUTTON -->
+
+        <div class="smallsection-textwithbutton">
+
+        	<div class="container">
+
+            	<div class="sixteen columns" style="text-align:center;">
+
+            		<h4 class="white">Are you going?</h4>
+
+            		<p class="white">Share with your friends.</p>
+
+        			<div class="shareon-container" style="width:300px;">
+
+						<!--<a href="https://www.facebook.com/sharer/sharer.php?p[url]=http://ww2.cs.fsu.edu/~jayarama/expo&amp;p[title]=FSU%20CS%20EXPO%2C%202015+&amp;p[summary]=Florida%20State%27s%20Computer%20Science%20Department%20hosts%20the%202015%20%23FSUCSExpo%20on%20November%212th.%20For%20more%20info%3A%20www.cs.fsu.edu%2Fexpo" target="_blank" class="facebook-share">facebook</a>-->
+						
+						<div class="fb-share-button" data-href="http://ww2.cs.fsu.edu/~jayarama/expo/" data-layout="box_count"></div>
+                        <a href="https://plus.google.com/share?url=http%3A%2F%2Fww2.cs.fsu.edu%2F%7Ejayarama%2Fexpo" target="_blank" class="google-share left">Google</a>
+
+                        <a href="https://twitter.com/intent/tweet?text=%40floridastate%27s%20Computer%20Science%20Department%20hosts%20the%202015%20Fall%20%23FSUCSExpo%20on%20November%212th.%20For%20more%20info%3A%20www.cs.fsu.edu%2Fexpo" target="_blank" class="twitter-share left">twitter</a>
+
+           			</div>
+
+            	</div>
+
+            </div>
+
+        </div>
+
+        <!-- MODULE : SMALL SECTION - TEXT WITH BUTTON -->
+
+        
+
+        <div class="colorline"></div>
+
+        
+
+        <!-- MODULE : SCHEDULE -->
+
+        <section id="schedule" class="section-container">
+
+            <div class="header-image-parallax">
+
+            	<div class="bg-parallax-3"></div>
+
+             	<div class="pattern-overlay"></div>
+
+            </div>
+
+            <div class="container">
+
+                <div class="sixteen columns heading-text">
+
+                    <div class="separator separator-title">
+
+                        <h2 class="separator-mainheader color">Schedule</h2>
+
+                        <span class="separator-subheader">The event schedule is subject to change</span>
+
+                    </div>
+
+                </div>  
+
+                <!-- schedule list -->
+
+
+
+                <!-- schedule list -->
+
+                <!-- schedule list -->
+
+                <div class="sixteen columns schedule-list odd">
+
+                    <div class="day">
+
+                        <div>
+                          <h6>11/16</h6>
+                        </div>
+
+                    </div>
+
+                
+
+                    <div class="time">
+
+                        <div>
+
+                            <h6>9.00am - 9.45am</h6>
+
+                            <p><!--(.75 hour)--></p>
+
+                        </div>
+
+                    </div>
+
+                
+
+                    <div class="details">
+
+                        <div>
+
+                            <h6>Jason Eick</h6>
+
+                            <p>Danfoss</p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!-- schedule list -->
+
+                <!-- schedule list -->
+
+                <div class="sixteen columns schedule-list">
+
+                    <div class="day">
+
+                        <div>
+                          <h6>11/16</h6>
+                        </div>
+
+                    </div>
+
+                
+
+                    <div class="time">
+
+                        <div>
+
+                            <h6>9.45am - 10.30am</h6>
+
+                            <p><!--(.75 hour)--></p>
+
+                        </div>
+
+                    </div>
+
+                
+
+                    <div class="details">
+
+                        <div>
+
+                            <h6>Sean Miniclier and Jason McDonald</h6>
+
+                            <p>Harris</p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!-- schedule list -->
+
+                <!-- schedule list -->
+
+                <div class="sixteen columns schedule-list odd">
+
+                    <div class="day">
+
+                        <div>
+                          <h6>11/16</h6>
+                        </div>
+
+                    </div>
+
+                
+
+                    <div class="time">
+
+                        <div>
+
+                            <h6>10.30am - 11.15am</h6>
+
+                            <p><!--(1.25 hour)--></p>
+
+                        </div>
+
+                    </div>
+
+                
+
+                    <div class="details">
+
+                        <div>
+
+                            <h6>Frank Valcarcel</h6>
+
+                            <p>Cuttlesoft</p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!-- schedule list -->
+
+                 <!-- schedule list -->
+
+                <div class="sixteen columns schedule-list">
+
+                    <div class="day">
+
+                        <div>
+                          <h6>11/16</h6>
+                        </div>
+
+                    </div>
+
+                
+
+                    <div class="time">
+
+                        <div>
+
+                            <h6>11.15am - 12.15pm</h6>
+
+                            <p><!--(1.00 hour)--></p>
+
+                        </div>
+
+                    </div>
+
+                
+
+                    <div class="details">
+
+                        <div>
+
+                            <h6>Michael Marrotte</h6>
+
+                            <p>Grad Made Good Talk</p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!-- schedule list -->
+<div class="sixteen columns schedule-list">
+
+                    <div class="day">
+
+                        <div>
+
+                            <h6>11/16</h6>
+
+                        </div>
+
+                    </div>
+
+                
+
+                    <div class="time">
+
+                        <div>
+
+                            <h6>12.15pm - 1.15pm</h6>
+
+                            <p><!--(.25 hour)--></p>
+
+                        </div>
+
+                    </div>
+
+                
+
+                    <div class="details">
+
+                        <div>
+
+                            <h6>*Lunch</h6>
+
+                            <p></p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+                <!-- schedule list -->
+
+                <div class="sixteen columns schedule-list odd">
+
+                    <div class="day">
+
+                        <div>
+
+                            <h6>11/16</h6>
+
+                        </div>
+
+                    </div>
+
+                
+
+                    <div class="time">
+
+                        <div>
+
+                            <h6>1.15pm - 2.00pm</h6>
+
+                            <p><!--(0.75 hours)--></p>
+
+                        </div>
+
+                    </div>
+
+                
+
+                    <div class="details">
+
+                        <div>
+
+                            <h6>Edward Skrod</h6>
+
+                            <p>Microsoft</p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!-- schedule list -->
+
+                <!-- schedule list -->
+
+                
+
+                <!-- schedule list -->
+
+                <!-- schedule list -->
+
+                <div class="sixteen columns schedule-list odd">
+
+                    <div class="day">
+
+                        <div>
+
+                            <h6>11/16</h6>
+
+                        </div>
+
+                    </div>
+
+                
+
+                    <div class="time">
+
+                        <div>
+
+                            <h6>2.00pm - 2.30pm</h6>
+
+                            <p><!--(1.00 hour)--></p>
+
+                        </div>
+
+                    </div>
+
+                
+
+                    <div class="details">
+
+                        <div>
+
+							<h6>Student Presentation - Soheila Abrishami</h6>
+
+                            <p></p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!-- schedule list -->
+
+                <!-- schedule list -->
+
+                <div class="sixteen columns schedule-list">
+
+                    <div class="day">
+
+                        <div>
+
+                            <h6>11/16</h6>
+
+                        </div>
+
+                    </div>
+
+                
+
+                    <div class="time">
+
+                        <div>
+
+                            <h6>2.30pm - 3.00pm</h6>
+
+                            <p><!--(1.00 hour)--></p>
+
+                        </div>
+
+                    </div>
+
+                
+
+                    <div class="details">
+
+                        <div>
+
+                            <h6>Student Presentation - Shafayat Rahman</h6>
+
+                            <p></p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                
+
+                <!-- schedule list -->
+
+ 		<!-- schedule list -->
+
+                <div class="sixteen columns schedule-list">
+
+                    <div class="day">
+
+                        <div>
+
+                            <h6>11/16</h6>
+
+                        </div>
+
+                    </div>
+
+                
+
+                    <div class="time">
+
+                        <div>
+
+                            <h6>3.00pm - 3.30pm</h6>
+
+                            <p><!--(1.00 hour)--></p>
+
+                        </div>
+
+                    </div>
+
+                
+
+                    <div class="details">
+
+                        <div>
+
+                            <h6>Closing and Awards</h6>
+
+                            <p></p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                
+
+                <!-- schedule list -->
+
+                <div class="sixteen columns"  >
+
+                    <p class="terms">
+
+                        * Location to be announced<br/>
+
+                        <!--** Speakers to be announced<br/>-->
+
+                    </p>
+
+<!--                    <ul style="list-style: inherit;">-->
+
+<!--                        <li><h6>Research demos will be shown in The Globe, Program Room 2600 from 10 AM to 2 PM.</h6></li>-->
+
+<!--                        <li><h6>Posters are on display in The Globe, Program Room 2600 from 10 AM to 2 PM.</h6></li>-->
+
+                </div>
+
+            </div>
+
+        </section>  
+
+        <!-- MODULE : SCHEDULE --> 
+
+        
+
+        <!-- MODULE : TWITTER -->	
+
+        <div id="twittersection">
+
+            <div class="container">
+
+                <div class="sixteen columns twitter">
+
+                    <div class="twittersection-icon"><img src="images/twittericon.png" alt="twitter"/></div>
+
+                    <h3 class="twitter-author"><a href="https://twitter.com/search?q=%23FSUCSExpo&amp;src=typd&amp;f=realtime" target="_blank">#FSUCSExpo</a></h3>
+
+                    <div id="lasttweet"></div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- MODULE : TWITTER -->
+
+            
+
+        <!-- MODULE : VENUE -->	
+
+        <section id="venue" class="section-container">
+
+            <!-- VENUE - Map -->
+
+            <div class="map-container">
+
+                <div id="map"></div>
+
+            </div>
+
+            <!-- VENUE - Map -->
+
+            <div class="container">
+
+                <div class="sixteen columns heading-text">
+
+                    <div class="separator separator-title">
+
+                        <h2 class="separator-mainheader color">Expo Venue</h2>
+
+                        <span class="separator-subheader">where it is and how to get there</span>
+
+                    </div>
+
+                </div>
+
+                
+
+                <!-- VENUE INFO -->
+
+                <div class="sixteen columns">
+
+                    <h5>The Center for Global Engagement (The Globe), 
+
+                        110 S. Woodward Ave., Florida State University, 
+
+                        Tallahassee, FL 32306</h5>
+
+                    <p>The talks will be the Auditorium on the first floor.</p>
+
+                </div>
+
+                <hr class="dividerline"/>    
+
+                
+
+                <!-- VENUE - how to get there -->
+
+                <div class="routeby one-third column">
+
+                    <div class="route-icon"><img src="images/icons/car.png" alt="icon"/></div> 
+
+                    <div class="route-title">
+
+                        <h6>Routes by Car</h6>
+
+                        <p class="routedesc"></p>
+
+                    </div> 
+
+                    <div class="route-moreinfo">
+
+                        <p><strong>Woodward Garage:</strong> Take Tennessee Street to Woodward Ave. Entrance is on the right.<br />
+
+                        <strong>Traditions Way Garage:</strong> Take Gaines Street to Woodward Ave. and take Woodward north. Entrance is on the left.
+
+                        </p>
+
+                    </div>
+
+                </div>
+
+                <!-- VENUE - how to get there -->
+
+                
+
+                <!-- VENUE - how to get there -->
+
+                <div class="routeby one-third column">
+
+                    <div class="route-icon"><img src="images/icons/bus.png" alt="icon"/></div> 
+
+                    <div class="route-title">
+
+                        <h6>Routes by StarMetro</h6>
+
+                        <p class="routedesc">free for students/ $1.25 - $3.00</p>
+
+                    </div> 
+
+                    <div class="route-moreinfo"><p>Use the Forest Route. The closest stop is W Jefferson at Woodward
+
+                        For more information on StarMetro routes please visit 
+
+                        <a href="https://www.talgov.com/starmetro/starmetro-routes.aspx">StarMetro's Website</a></p></div>
+
+                </div>
+
+                <!-- VENUE - how to get there -->
+
+                
+
+                <!-- VENUE - how to get there -->
+
+                <div class="routeby one-third column">
+
+                    <div class="route-icon"><img src="images/icons/bus.png" alt="icon"/></div> 
+
+                    <div class="route-title">
+
+                        <h6>Routes by Seminole Express</h6>
+
+                        <p class="routedesc">free</p>
+
+                    </div> 
+
+                    <div class="route-moreinfo"><p>Use the Renegade Route (campus loop). It has a stop right by the Ragans Hall
+
+                        which is just a two minute walk from The Center for Global Engagement.</p></div>
+
+                </div>
+
+                <!-- VENUE - how to get there -->
+
+            </div>
+
+        </section>
+
+        <!-- MODULE : VENUE -->
+
+    	
+
+        <!-- MODULE : NEWSLETTER 	
+
+        <div id="newslettersection">
+
+            <div class="container">
+
+                <div class="sixteen columns newsletter">
+
+                    <h4>Sign up for our newsletter</h4>
+
+                    <div class="newsletterform">
+
+                        <form action="subscribe.php" id="invite" method="POST">
+
+                            <input class="newsletter-label" type="email" name="emailsub" id="email-subscribe" value="enter your email" onblur="if (this.value == '') {this.value = 'enter your email';}" onfocus="if (this.value == 'enter your email') {this.value = '';}" />
+
+                            <button class="newsletter-send button" id="send-subscribe">Submit</button>
+
+                            <div class="loading-newsletter"><img src="images/loader.gif" alt="loader"/></div>
+
+                        </form>
+
+                        <div class="success-newsletter">
+
+							<strong>Success!</strong> You email successfully added to our list.
+
+                		</div>
+
+                        <br><p>Enter your email to receive updates about the Expo.</p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+		<!-- MODULE : NEWSLETTER -->	
+
+        
+
+        <div class="colorline"></div>
+
+        <!-- MODULE : FAQ -->
+
+        <section id="faq" class="section-container">
+
+        	<div class="header-image-parallax">
+
+            	<div class="bg-parallax-4"></div>
+
+             	<div class="pattern-overlay"></div>
+
+            </div>
+
+            <div class="container">
+
+                <div class="sixteen columns heading-text">
+
+                    <div class="separator separator-title">
+
+                        <h2 class="separator-mainheader color">FAQ</h2>
+
+                        <span class="separator-subheader">Frequently Asked Questions</span>
+
+                    </div>
+
+                </div>
+
+                <dl class="Zebra_Accordion" id="Zebra_Accordion1">
+
+                    <dt style="margin-top:0px;">How do I sign up?</dt>
+
+                    <dd>
+
+                        If you're a student or faculty member of the department of Computer Science, you are
+
+                        already registered and encouraged to come. <br />
+
+                        If you a visitor or speaker, please contact <a href="mailto:dyehouse@cs.fsu.edu">Renee Dyehouse.</a>
+
+                    </dd>
+
+                    <dt>How can I enter my poster in the contest?</dt>
+
+                    <dd>
+
+                       Please contact Sharanya Jayaraman at <a href="mailto:jayarama@cs.fsu.edu">jayarama@cs.fsu.edu</a>
+
+                    </dd>
+
+                    <dt>I would like to make a presentation. Who do I contact?</dt>
+
+                    <dd>
+
+                       Please contact Sharanya Jayarama at <a href="mailto:jayarama@cs.fsu.edu">jayarama@cs.fsu.edu</a>. Student's that are interested in doing a presentation will have to pass a preliminary round. We will pick the top student presentations to actually present at the Expo.
+
+                    </dd>
+
+                    <dt>Will my class be canceled so I may attend?</dt>
+
+                    <dd>
+
+                        Canceling or rescheduling a class so that students may attend the event is done at the discretion of the instructor. <br /> The event is scheduled so that most students
+
+                        can attend at least one or more talks.
+
+                    </dd>
+
+                    <dt>Is lunch provided?</dt>
+
+                    <dd>
+
+                        Lunch and refreshments will be provided by the department of Computer Science. You must attend the talk before lunch in order to receive a meal ticket. Food will not be served to individuals who do not have a meal ticket.
+
+                    </dd>
+
+                    <dt>I'm visiting. Where do I park? What's the cost?</dt>
+
+                    <dd>
+
+                        A visitor parking permit is available from FSU Transportation Services. The cost of this 
+
+                        permit is $3.25 per day. This permit allows parking in any non-gated Faculty/Staff spaces and Student spaces (and Loading Zones for 20 minutes). You may purchase the permit
+
+                        at Transportation Services office; University Center C5406, Monday - Friday, 7:30am - 5:00pm.
+
+                        For more information visit their website: <a href="http://parking.fsu.edu/" />parking.fsu.edu</a>
+
+                        <br />
+
+                        The closest parking garages to the Center for Global Engagement (The Globe) are the Woodward Garage
+
+                        and the Traditions Way Garage. To see a map, 
+
+                        <a href="https://transportation.fsu.edu/maps">click here</a>.
+
+                    </dd>
+
+                </dl>
+
+            </div>   	
+
+        </section>
+
+        <!-- MODULE : FAQ -->
+
+        
+
+        <!-- MODULE : SPONSORS CAROUSEL -->	
+
+        <div id="sponsorsection">
+
+            <div class="container">
+
+                <div class="sixteen columns sponsor">
+
+                    <h4>Our Sponsors</h4>
+
+                    <ul id="sponsor-flexisel"> 
+
+                        <li><img src="images/harris-logo.png" alt="logo" width="512" height="140"></li> 
+
+                        <!--<li><img src="images/bookstore.gif" alt="logo"></li>   
+
+                        <li><img src="images/melinasphotography.jpg" alt="logo"></li> -->                                                
+
+                    </ul>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- MODULE : SPONSORS CAROUSEL -->	
+
+        
+
+		
+
+    	<div class="colorline"></div>
+
+
+		<!--
+       <section id="contact" class="section-container">
+
+        	<div class="header-image-parallax">
+
+            	<div class="bg-parallax-5"></div>
+
+             	<div class="pattern-overlay"></div>
+
+            </div>
+
+            <div class="container">
+
+            	<div class="sixteen columns heading-text-nodesc">
+
+                    <div class="separator separator-title">
+
+                        <h2 class="separator-mainheader color">Contact Us</h2>
+
+                    </div>
+
+                </div>
+
+ 				
+
+                <div class="four columns">
+
+                	<h5>Contact Info</h5><br>
+
+                    <p>Sharanya Jayarama<br>205A Love Building, Florida State University Tallahassee, FL 32306<br/>
+						
+		<!--		<br>P. (941) 524-5572<br/>-->
+
+					<!-- F. +62 (123) 456-7890<br/> -->
+
+				<!--	E. <a href="mailto:jayarama@cs.fsu.edu">jayarama@cs.fsu.edu</a><br/>
+
+					W. <a target="_blank" href="http://www.cs.fsu.edu">www.cs.fsu.edu</a></p><br>
+
+
+
+                    <!-- <p>Download the Event Program</p>
+
+                    <a target="_blank" href="#" class="file-download left">Download file</a><br>
+
+
+
+                </div>
+
+                
+
+				<div class="twelve columns">
+
+                	<h5>Contact Form</h5>
+
+                	<br>
+
+                    
+
+                	<form method="post" action="contact.php" name="contactform" id="contactform" class="form">
+
+                        <div class="field">
+
+                        		<p>Name<span class="req">*</span></p>
+
+                                <input type="text" name="name" id="name" class="text-label"/>
+
+                        </div>
+
+                        <div class="field">
+
+                        		<p>Email</p>
+
+                                <input type="text" name="email" class="text-label"/>
+
+                        </div>
+
+                        <div class="field">
+
+                        		<p>Phone</p>
+
+                                <input type="text" name="phone" class="text-label" />
+
+                        </div>
+
+                        <div class="field">
+
+                        		<p>Subject</p>
+
+                                <input id="subject-field" type="text" name="subject" class="text-label"/>
+
+                        </div>
+
+               
+
+                        <div class="field">
+
+                        	<p>Message</p>
+
+                            <textarea name="message" class="textarea-label"></textarea>
+
+                        </div>
+
+                        
+
+                        <div class="success-message">
+
+							<strong>Success!</strong> You successfully send an email for us.
+
+                		</div>
+
+                        
+
+                        <div class="field">
+
+                            <button id="send" class="button right">Send</button>
+
+                            <div class="loading-contact"><img src="images/loader.gif" alt="loader"/></div>
+
+                        </div>
+
+          
+
+                    	<div class="clear"></div>
+
+        			</form>
+
+				</div>
+
+			</div>
+
+		</section>
+-->
+		
+        
+
+        <!-- MODULE : FOOTER -->
+
+        <footer>
+
+        	<div class="footer-arrow"></div>
+
+            <div class="container">
+
+                <div class="sixteen columns footer-inside">
+
+                    <h3>See you there!</h3>
+
+                    <br>
+
+                    <!-- <a class="button my_modal_open" style="margin:0 auto;">Packages</a> -->
+
+                </div>
+
+             </div>
+
+             <div class="footer-border"></div>
+
+             <div class="container">   
+
+                <div class="eight columns copyright">
+
+                <p>Copyright © 2017, The Florida State University. All rights reserved.</p>
+
+                </div>
+
+                <div class="eight columns social-footer">
+
+                    <div class="social-icons">
+
+                        <div><a href="https://www.facebook.com/pages/Florida-State-Computer-Science/125591737463567" target="_blank" class="facebook-icon"><img alt="" src="images/social-icons/facebook.png" /></a></div>
+
+                        <div><a href="https://twitter.com/floridastate" target="_blank" class="twitter-icon"><img alt="" src="images/social-icons/twitter.png" /></a></div>
+
+                        <div><a href="http://www.linkedin.com/groups?home=&gid=4625600&trk=anet_ug_hm" target="_blank" class="linkedin-icon"><img alt="" src="images/social-icons/linkedin.png" /></a></div>
+
+                    </div>
+
+                </div>
+
+                <div class="sixteen columns footer-inside">
+
+                    <span class="developer">Developed by <a href="http://about.me/frankv" target="_blank">Frank Valcarcel.</a> Edited by Sharanya Jayaraman, Jon Clow, and Noah Nethery</span>
+
+                </div>
+
+            </div>
+
+        </footer>
+
+        <!-- MODULE : FOOTER -->      
+
+	<!-- </div> --> 
+
+</div>    
+
+<!-- END OF DIV -->    
+
+	
+
+
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+
+<script src="js/twitter/jquery.tweet.js"></script>
+
+
+
+
+
+<!-- JQUERY : Contact -->
+
+<!--
+<script type="text/javascript">
+
+	$(document).ready(function() {
+
+		$('#send').click(function () {		
+
+		
+
+		//Get the data from all the fields
+
+		var name = $('input[name=name]');
+
+		var email = $('input[name=email]');
+
+		var phone = $('input[name=phone]');
+
+		var subject = $('input[name=subject]');
+
+		var message = $('textarea[name=message]');
+
+		var emailRegex = /^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$/;
+
+		var phoneRegex = /^\d+$/;
+
+		//Simple validation to make sure user entered something
+
+		//If error found, add error-highlight class to the text field
+
+		
+
+		if (name.val()=='' || name.val()=='Name') {
+
+			name.addClass('error-highlight'); 
+
+			return false;
+
+		} else name.removeClass('error-highlight');
+
+		
+
+		if (email.val()==''  || email.val()=='Email') {
+
+			email.addClass('error-highlight');
+
+			return false;
+
+		}
+
+		
+
+		else if(!email.val().match(emailRegex)) {
+
+			 email.addClass('error-highlight');
+
+			 return false;
+
+		} 
+
+		else email.removeClass('error-highlight');
+
+		
+
+		if (phone.val()==''  || phone.val()=='Phone') {
+
+			phone.addClass('error-highlight');
+
+			return false;
+
+		}
+
+		
+
+		else if(!phone.val().match(phoneRegex)) {
+
+			 phone.addClass('error-highlight');
+
+			 return false;
+
+		} 
+
+		else phone.removeClass('error-highlight');
+
+		
+
+		if (subject.val()=='' || subject.val()=='Subject') {
+
+			subject.addClass('error-highlight');
+
+			return false;
+
+		} else subject.removeClass('error-highlight');
+
+		
+
+		if (message.val()=='' || message.val()=='Message') {
+
+			message.addClass('error-highlight');
+
+			return false;
+
+		} else message.removeClass('error-highlight');
+
+		
+
+		//organize the data properly
+
+		var data = 'name=' + name.val() + '&email=' + email.val() + '&phone=' + phone.val() + '&subject=' + subject.val() + '&message='  + encodeURIComponent(message.val());
+
+		
+
+		// Disable fields
+
+		//$('.text-label, .textarea-label').attr('disabled','true');
+
+		
+
+		//show the loading sign
+
+		$('.loading-contact').show();
+
+		//start the ajax
+
+		$.ajax({
+
+			//this is the php file that processes the data and send mail
+
+			url: "contact.php",	
+
+			
+
+			//GET method is used
+
+			type: "GET",
+
+
+
+			//pass the data			
+
+			data: data,		
+
+			
+
+			//Do not cache the page
+
+			cache: false,
+
+			
+
+			//success
+
+			success: function (html) {				
+
+				//if process.php returned 1/true (send mail success)
+
+				if (html==1) {					
+
+					//hide the form
+
+					
+
+					//show the success message
+
+					$('.loading-contact').fadeOut('slow');	
+
+						
+
+					//show the success message
+
+					$('.success-message').slideDown('slow');
+
+					$('.success-message').delay(1000).slideUp('slow');
+
+											
+
+					// Disable send button
+
+					//$('#send').attr('disabled',true);
+
+					
+
+					//if process.php returned 0/false (send mail failed)
+
+					} else
+
+					  {
+
+					  $('.loading-contact').fadeOut('slow')
+
+					  alert('Sorry, unexpected error. Please try again later.');
+
+					 
+
+					  }
+
+				}		
+
+			});
+
+		
+
+			//cancel the submit button default behaviours
+
+			return false;
+
+		});	
+
+	});	
+
+</script>
+-->
+
+<!-- countdown -->
+
+<script type="text/javascript" src="js/jquery.lwtCountdown-1.0.js"></script>
+
+<script type="text/javascript">
+
+		$(document).ready(function() {
+
+			//if submit button is clicked
+
+			//if submit button is clicked
+
+			$('#send-subscribe').click(function () {	
+
+				var emailsub = $('input[name=emailsub]');		
+
+				var emailRegex = /^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$/;	
+
+				
+
+				if (emailsub.val()==''  || emailsub.val()=='enter your active email') {
+
+					emailsub.addClass('error-newsletter');
+
+					return false;
+
+				}
+
+				
+
+				else if(!emailsub.val().match(emailRegex)) {
+
+					 emailsub.addClass('error-newsletter');
+
+					 return false;
+
+				} 
+
+				else emailsub.removeClass('error-newsletter');
+
+		
+
+			//organize the data properly
+
+			var data = 'emailsub=' + emailsub.val();
+
+			
+
+			// Disable fields
+
+			//$('.text-label, .textarea-label').attr('disabled','true');
+
+			
+
+			//show the loading sign
+
+			$('.loading-newsletter').show();
+
+			//start the ajax
+
+			$.ajax({
+
+				//this is the php file that processes the data and send mail
+
+				url: "subscribe.php",	
+
+				
+
+				//GET method is used
+
+				type: "GET",
+
+	
+
+				//pass the data			
+
+				data: data,		
+
+				
+
+				//Do not cache the page
+
+				cache: false,
+
+				
+
+				//success
+
+				success: function (html) {				
+
+					//if process.php returned 1/true (send mail success)
+
+					if (html==1) {					
+
+						//hide the form
+
+						
+
+						//show the success message
+
+						$('.loading-newsletter').fadeOut('slow');	
+
+							
+
+						//show the success message
+
+						$('.success-newsletter').slideDown('slow');
+
+						$('.success-newsletter').delay(1000).slideUp('slow');
+
+												
+
+						// Disable send button
+
+						//$('#send').attr('disabled',true);
+
+						
+
+						//if process.php returned 0/false (send mail failed)
+
+						} else
+
+						  {
+
+						  $('.loading-newsletter').fadeOut('slow')
+
+						  alert('Sorry, unexpected error. Please try again later.');
+
+						 
+
+						  }
+
+					}		
+
+				});
+
+				//cancel the submit button default behaviours
+
+				return false;
+
+			});
+
+});
+
+</script>
+
+
+
+<!--<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/gmaps.js/0.4.5/gmaps.min.js"></script>
+
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery-scrollTo/1.4.6/jquery.scrollTo.min.js"></script>
+
+<script src="js/jquery.nav.js"></script>-->
+
+
+
+<script>
+
+	$(function() {
+
+      $('#my_modal').popup();
+
+    });
+
+</script>
+
+    
+
+    <!-- BUY TICKET MODAL -->
+
+	<div id="my_modal" class="container ticketmodal">
+
+ 		<a class="ticketmodal-close my_modal_close">x</a>
+
+		<div class="sixteen columns heading-text-price">
+
+            <div class="separator separator-title">
+
+                <h2 class="separator-mainheader color">Be An Expo Co-Sponsor</h2>
+
+                <span class="separator-subheader">great for business and employer exposure</span>
+
+            </div>
+
+      	</div>
+
+    	<div class="sixteen columns">
+
+        	<h5></h5>
+
+    		<p></p>
+
+ 		</div>
+
+			<div class="sixteen columns price-container">
+
+        	<!--Single price columns-->
+
+       		<div class="price-column">
+
+				<div class="title">Standard Sponsor</div>
+
+            	<div class="pricebox" style="color:inherit;"><sup>$</sup>500</div>
+
+				<div class="pricecontent">
+
+                    <ul>
+
+                        <li>Mentioned on Website, Flyers and Posters</li>
+
+                        <li>Acknowledged at Expo</li>
+
+                        <!-- <li>1 Day Workshop</li> -->
+
+                    </ul>
+
+                    <p>More information can be provided on request.</p>
+
+                    <a href="#contact" id="bestandard" class="button button-ticket my_modal_close">Be a Sponsor!</a>
+
+             	</div>   
+
+			</div>
+
+            <!--/Single price columns-->
+
+			
+
+            <!--Single price columns-->
+
+			<div class="price-column">
+
+                <div class="title-middle">Garnet Sponsor</div>
+
+                <div class="pricebox-middle"><sup>$</sup>1000</div>
+
+                <div class="pricecontent-middle">
+
+                    <ul>
+
+                        <li><strong>Includes the Standard Package</strong></li>
+
+                        <li>Display a Poster at the Expo</li>
+
+                        <li>Distribute Brochures at Expo</li>
+
+                        <li>Have Representative On Site</li>
+
+                    </ul>
+
+                    <p>More information can be provided on request.</p>
+
+                    <a href="#contact" id="begarnet" class="button button-ticket my_modal_close">Be a Sponsor!</a>
+
+                 </div>   
+
+			</div>
+
+            <!--/Single price columns-->
+
+        	
+
+            <!--Single price columns-->
+
+            <div class="price-column">
+
+                <div class="title">Gold Sponsor</div>
+
+                <div class="pricebox last_pricebox" style="background-color:#cdc092;color:inherit;"><sup>$</sup>1500</div>
+
+                <div class="pricecontent">
+
+                    <ul>
+
+                        <li><strong>Includes the Standard and Garnet Packages</strong></li>
+
+                        <li>Headline the Expo (presented in your name)</li>
+
+                        <li>Final Words at Award Ceremony</li>
+
+                    </ul>
+
+                    <p>More information can be provided on request.</p>
+
+                    <a href="#contact" id="begold" class="button button-ticket my_modal_close">Be a Sponsor!</a>
+
+                 </div>   
+
+            </div>
+
+            <!--/Single price columns-->
+
+			</div>
+
+	</div>
+
+    <!-- BUY TICKET MODAL -->
+
+        
+
+</body>
+
+</html>
+
